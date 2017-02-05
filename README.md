@@ -4,8 +4,8 @@ This Program uses MapReduce-based approach in Hadoop system to compute the relat
 
 ### This program is successfully tested on a Hadoop Map-Reduce Cluster on AWS
 
-##### Note that the relative frequency (RF) of word B given word A is defined as follows:
-###### f(B|A)= Count(A,B) / Count(A) = Count(A,B) / ΣB' Count(A,B')
+#### Note that the relative frequency (RF) of word B given word A is defined as follows:
+#### f(B|A)= Count(A,B) / Count(A) = Count(A,B) / ΣB' Count(A,B')
 where count(A,B) is the number of times A and B co-occur in a document, and count(A) the number of times A occurs with anything else. Intuitively, given a document collection, the relative frequency captures the proportion of time the word B appears in the same document as A.
 
 ### Input file: 100KWikiText.txt
